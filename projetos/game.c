@@ -64,8 +64,8 @@ void jogar(){
     }
     else{
         //ultra
-        calc.valor1 = rand() % 100000; //0 a 10 0000
-        calc.valor2 = rand() % 100000;
+        calc.valor1 = rand() % 100001; //0 a 10 0000
+        calc.valor2 = rand() % 100001;
     }
 
     int resposta;
