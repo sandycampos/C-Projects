@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-quick_sort(int vetor[], int tam){
+void quick_sort(int vetor[], int tam){
     int i, j, grupo, troca;
 
     //critério de parada da recursividade
