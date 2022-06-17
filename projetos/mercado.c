@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h> //para pausar o programa por alguns segundos (sleep)
-//#include<unistd.h> se linux ou mac
+//#include <unistd.h> se linux ou mac
 
 typedef struct
 {
@@ -114,7 +114,7 @@ void cadastrarProduto()
     contador_produto++;
 
     Sleep(2000);
-    menu();                                  
+    menu();
 }
 
 void listarProdutos()
@@ -134,8 +134,8 @@ void listarProdutos()
     }
     else
         printf("Não temos produtos cadastrados.\n");
-        Sleep(2000);
-        menu();
+    Sleep(2000);
+    menu();
 }
 
 void comprarProduto()
@@ -237,8 +237,8 @@ void visualizarCarrinho()
     }
     else
         printf("Você não tem produtos no carrinho.\n");
-        Sleep(2000);
-        menu();
+    Sleep(2000);
+    menu();
 }
 
 Produto pegarProdutoPorCodigo(int codigo)
